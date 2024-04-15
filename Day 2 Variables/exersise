@@ -1,0 +1,45 @@
+# Exercise 1: Declare a variable called 'name' and assign your name to it. Print the value of 'name'.
+name = "John Doe"
+print(name)
+
+# Exercise 2: Declare two variables 'num1' and 'num2' and assign them any numeric values. Print the sum of 'num1' and 'num2'.
+num1 = 10
+num2 = 5
+print(num1 + num2)
+
+# Exercise 3: Declare a variable 'is_true' and assign it a boolean value. Print the value of 'is_true'.
+is_true = True
+print(is_true)
+
+# Exercise 4: Declare a variable 'my_list' and assign it a list of numbers. Print the elements of 'my_list'.
+my_list = [1, 2, 3, 4, 5]
+for num in my_list:
+    print(num)
+
+# Exercise 5: Declare a variable 'my_dict' and assign it a dictionary with key-value pairs. Print the values of 'my_dict'.
+my_dict = {"name": "John", "age": 25, "city": "New York"}
+for value in my_dict.values():
+    print(value)
+
+# Exercise 6: Declare a variable 'my_tuple' and assign it a tuple of strings. Print the elements of 'my_tuple'.
+my_tuple = ("apple", "banana", "cherry")
+for item in my_tuple:
+    print(item)
+
+# Exercise 7: Declare a variable 'my_set' and assign it a set of numbers. Print the elements of 'my_set'.
+my_set = {1, 2, 3, 4, 5}
+for num in my_set:
+    print(num)
+
+# Exercise 8: Declare a variable 'my_string' and assign it a string. Print each character of 'my_string'.
+my_string = "Hello, World!"
+for char in my_string:
+    print(char)
+
+# Exercise 9: Declare a variable 'num' and assign it any numeric value. Print the square of 'num'.
+num = 7
+print(num ** 2)
+
+# Exercise 10: Declare a variable 'my_bool' and assign it a boolean value. Print the negation of 'my_bool'.
+my_bool = False
+print(not my_bool)
